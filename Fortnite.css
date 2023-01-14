@@ -3,22 +3,15 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
 }
-
 body{
     overflow-x: hidden;
-
 }
 .org-wdth{
    width: 1400px;
    max-width: 95%;
    margin: 0 auto;
-   
-   
-  
 }
-
 .into-the-moon{
     height: 100%;
     width: 100%;
@@ -26,60 +19,137 @@ body{
     position: relative;
     background:radial-gradient(#f9d349,20%,#d57e12);
 }
-
 .into-the-moon header .logo h2 a {
     display: block;
     text-decoration: none;
     color: white;
     font-size: 32px;
     font-weight: 600;
-  
 }
-
 .into-the-moon header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 30px;
-
 }
-
  nav ul li  {
    display: inline-block;
    list-style: none;
    padding: 0 20px;   
 }
-
 nav ul li a  {
     color: white;  
     text-decoration: none;
     font-size: 15px;
     font-weight: 600;
  }
-
  nav ul li:nth-child(-n+4) a{
     border-bottom: 2px solid transparent;
     transition: 0.4s;
  }
-
  nav ul li:nth-child(-n+4):hover a{
     border-bottom: 2px solid white;
  }
-
  nav ul li.btn a{
-    border: solid 2px #f5dca8;
-    color: white;
+    border: solid 2px white;
+    color: black;
     padding: 5px 15px;
     border-radius: 15px;
     margin-left: 30px;
-    
+    font-weight: 500;
+    transition: 0.4s;
+    background-color: white;
  }
-
  nav ul li:last-child:hover a{
-   background:whitesmoke;
-   border: solid 2px #f5dca8;
-   color: gray;
-   transition: 0.4s;
+   border: solid 2px white;
+   color: white;
+   background-color: transparent;
+   transform: scale(1.04);
  }
+ .into-the-moon .org-wdth .content {
+    padding-top: 90px;
+ }
+ .content .main {
+    margin-bottom: 50px;
+    z-index:2 ;
+ }
+.content .main h6 {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 30px;
+}
+.content .main h3{
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 7px;
+    letter-spacing: 1px;
+}
+.content .main h1{
+    font-weight: 100px;
+    font-size: 100px;
+    margin: 0 0 45px ;
+    margin-top: -30px;
+    margin-bottom: 25px; 
+    font-family: 'Permanent Marker', cursive;
+    color:white;
+}
+.content .main p{
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 7px;
+    width:480px;
+    margin-bottom: 50px;
+    color: white;
+}
+.content .main a{
+    display: inline-block;
+    border: 2px solid white;
+    padding: 10px 35px;
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: 12px;
+    transition: 0.4s;
+}
+.content .main .wtch i {
+    margin-right: 5px;
+}
+.content .main a:hover{
+    transform: scale(1.07);
+    color:white;
+    border: 2px solid white;
+    background: transparent;
+}
+.socail a{
+    display: inline-block;
+    color: gainsboro;
+    margin-top: 100px;
+    font-size: 20px;
+    margin-right: 25px;
+    transition: 0.4s;
+}
+.socail a:hover{
+     transform: scale(1.7);
+     width: auto;
+     color: white;
+}
 
+.image {
+   position:absolute;
+    height: 85%;
+    width: 60%;
+    right: 0;
+    bottom: 0;
+    text-align: right;
+}
 
+.image img {
+    height: 100%;
+}
+
+/*mh007*/
